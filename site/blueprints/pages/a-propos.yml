@@ -1,0 +1,19 @@
+title: A propos
+
+fields:
+  titre:
+    label: Titre
+    type: text
+  image:
+    label: Image de la page
+    type: files
+    multiple: false
+  description:
+    label: Description
+    type: textarea
+  contactSubtitle:
+    label: Contact - sous-titre
+    type: text
+  contactDescription:
+    label: Contact - description
+    type: textarea

@@ -1,0 +1,17 @@
+title: Site
+
+columns:
+  # The first column has one section for the subpages of the `photography` page in card layout
+  # It reuses the pages section defined in `/site/blueprints/sections/albums.yml`
+  - width: 1/2
+      sections:
+        albums: sections/items
+
+ - width: 1/2
+      sections:
+        pages:
+          type: pages
+          create: false
+          exclude: hidden-page # Exclut la page parente spécifique
+
+

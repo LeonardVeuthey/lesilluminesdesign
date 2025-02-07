@@ -1,0 +1,12 @@
+columns:
+
+  - width: 1/2
+    sections:
+      item: sections/item
+
+  - width: 1/2
+
+    fields:
+      footer:
+        label: Texte pied de page
+        type: textarea

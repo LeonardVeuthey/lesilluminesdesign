@@ -1,0 +1,9 @@
+Footer: Les Illuminés Design / 3 Rue Vignier, 1205 Genève, Suisse / info@lesilluminesdesign.ch / +41 22 741 22 50
+
+----
+
+Texte: Ceci est le pied de page
+
+----
+
+Uuid: 1lTp9vIuZtv8TBrn

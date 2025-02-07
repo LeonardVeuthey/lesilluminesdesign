@@ -1,0 +1,102 @@
+
+.grid {
+  grid-template-rows: auto auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-auto-columns: 1fr;
+  display: grid;
+}
+
+.grid_link {
+  width: var(--100);
+  height: var(--100);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Grid_link - hover */
+.grid_link:hover .item_fade {
+  opacity: 1;
+}
+
+.grid_link:hover h3 {
+  transform: translateX(0em);
+  opacity: 1;
+}
+
+.grid_link:hover .item_designer {
+  transition-delay: 0.1s;
+  transform: translateX(0em);
+  opacity: 1;
+}
+
+.grid_link:hover .item_img {
+  transform: scale(1.05);
+}
+
+.grid_item {
+  width: var(--100);
+  height: 25vw;
+}
+
+
+.item_img {
+  z-index: 0;
+  width: var(--100);
+  height: var(--100);
+  transform: scale3d(1none, 1none, 1none);
+  object-fit: cover;
+  transform-style: preserve-3d;
+  transition: transform .5s cubic-bezier(.77, 0, .175, 1);
+  position: relative;
+}
+
+
+.item_fade {
+  z-index: 1;
+  width: var(--100);
+  height: var(--50);
+  padding-right: var(--_responsive---size--30);
+  padding-bottom: var(--_responsive---size--30);
+  padding-left: var(--_responsive---size--30);
+  grid-column-gap: var(--_responsive---size--15);
+  grid-row-gap: var(--_responsive---size--15);
+  opacity: 0;
+  background-image: linear-gradient(#fff0, #fff);
+  flex-flow: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  transition: opacity .7s;
+  display: flex;
+  position: absolute;
+  inset: auto auto 0% 0%;
+}
+
+.item_name {
+  flex-flow: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: inline-flex;
+}
+
+.item_title {
+  opacity: 0;
+  transition: all .5s cubic-bezier(.77, 0, .175, 1);
+  transform: translate(0, 1.58em);
+}
+
+.item_designer {
+  opacity: 0;
+  font-size: var(--_responsive---font-size--18);
+  transition: all .5s cubic-bezier(.77, 0, .175, 1);
+  transform: translate(0, 1.58em);
+}
+
+.footer {
+  padding-top: var(--_responsive---size--240);
+  padding-bottom: var(--_responsive---size--240);
+  text-align: center;
+  justify-content: center;
+  align-items: flex-start;
+  width: 87.5%;
+  display: flex;
+}

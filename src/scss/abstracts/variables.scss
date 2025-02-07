@@ -1,0 +1,67 @@
+body {
+  --color--black: #000;
+  --color--white: #fff;
+
+  --100: 100%;
+  --50: 50%;
+
+  --_responsive---font-size--18: 0.94em;
+  --_responsive---font-size--21: 1.09em;
+  --_responsive---font-size--24: 1.25em;
+  --_responsive---font-size--70: 3.65em;
+
+  --_responsive---size--15: 0.78em;
+  --_responsive---size--30: 1.56em;
+  --_responsive---size--60: 3.13em;
+  --_responsive---size--90: 4.69em;
+  --_responsive---size--120: 6.25em;
+  --_responsive---size--240: 12.5em;
+}
+
+@media (max-width: 991px) {
+  body {
+    --_responsive---font-size--18: 1.82em;
+    --_responsive---font-size--21: 2.12em;
+    --_responsive---font-size--24: 2.42em;
+    --_responsive---font-size--70: 7.06em;
+
+    --_responsive---size--15: 1.51em;
+    --_responsive---size--30: 3.03em;
+    --_responsive---size--60: 6.05em;
+    --_responsive---size--90: 9.08em;
+    --_responsive---size--120: 12.11em;
+    --_responsive---size--240: 24.22em;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    --_responsive---font-size--18: 2.34em;
+    --_responsive---font-size--21: 2.73em;
+    --_responsive---font-size--24: 3.13em;
+    --_responsive---font-size--70: 9.11em;
+
+    --_responsive---size--15: 1.95em;
+    --_responsive---size--30: 3.9em;
+    --_responsive---size--60: 7.8em;
+    --_responsive---size--90: 11.7em;
+    --_responsive---size--120: 15.6em;
+    --_responsive---size--240: 31.21em;
+  }
+}
+
+@media (max-width: 479px) {
+  body {
+    --_responsive---font-size--18: 3.76em;
+    --_responsive---font-size--21: 4.38em;
+    --_responsive---font-size--24: 5.01em;
+    --_responsive---font-size--70: 12.53em;
+
+    --_responsive---size--15: 3.13em;
+    --_responsive---size--30: 6.26em;
+    --_responsive---size--60: 12.53em;
+    --_responsive---size--90: 18.79em;
+    --_responsive---size--120: 25.05em;
+    --_responsive---size--240: 50.1em;
+  }
+}

@@ -1,0 +1,51 @@
+title: Item
+
+
+fields:
+  vignette:
+    label: Vignette
+    type: files
+    multiple: false
+    max: 1
+  nom:
+    label: Nom de l'objet
+    type: text
+  description:
+    label: Description
+    type: textarea
+  categorie:
+    label: Catégorie
+    type: select
+    options:
+      mobilier: mobilier
+      luminaires: luminaires
+      objets: objets
+      archives: archives
+  designer:
+    label: Nom du designer
+    type: text
+  editeur:
+    label: Éditeur
+    type: text
+  annee:
+    label: Année de conception
+    type: text
+  origine:
+    label: Origine
+    type: text
+  dimensions:
+    label: Dimensions
+    type: text
+  etat:
+    label: État
+    type: text
+  prix:
+    label: Prix
+    type: text
+  galerie:
+    label: Galerie d'images
+    type: files
+    multiple: true
+    max: 6
+
+

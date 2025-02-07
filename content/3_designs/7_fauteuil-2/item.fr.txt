@@ -1,0 +1,53 @@
+Title: Fauteuil 2
+
+----
+
+Vignette: - file://dPX7ITYODTqlq2QT
+
+----
+
+Nom: fauteil
+
+----
+
+Description: desc.
+
+----
+
+Categorie: objets
+
+----
+
+Designer: autor
+
+----
+
+Editeur: 
+
+----
+
+Annee: 
+
+----
+
+Origine: 
+
+----
+
+Dimensions: 
+
+----
+
+Etat: 
+
+----
+
+Prix: 
+
+----
+
+Galerie: 
+
+----
+
+Uuid: WxC2mMkHF7vn21t1

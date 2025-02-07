@@ -1,0 +1,57 @@
+Title: chaise 2
+
+----
+
+Vignette: - file://cDAqmoITvOKu7Xwx
+
+----
+
+Nom: canapé
+
+----
+
+Description: description
+
+----
+
+Categorie: archives
+
+----
+
+Designer: auteur
+
+----
+
+Editeur: editeur
+
+----
+
+Annee: 2020
+
+----
+
+Origine: Suisse
+
+----
+
+Dimensions: 23
+
+----
+
+Etat: Con
+
+----
+
+Prix: sur demande
+
+----
+
+Galerie:
+
+- file://aDn9ogD4QNXwju9D
+- file://cDAqmoITvOKu7Xwx
+- file://Hd8w99ArkkV23gOG
+
+----
+
+Uuid: eth5qcz7M4XwO4b1

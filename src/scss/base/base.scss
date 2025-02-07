@@ -1,0 +1,226 @@
+/* === RESET DE BASE === */
+/* Enlève les marges et les paddings par défaut */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Inclut les bordures et le padding dans la taille totale des éléments */
+}
+
+/* Réinitialise la taille des polices sur les éléments */
+html {
+  font-size: 100%; /* 1rem = 16px */
+  line-height: 1.5; /* Espacement vertical confortable */
+}
+
+/* Applique un style de base au corps */
+body {
+  font-family: Arial, sans-serif; /* Utilise une police par défaut, à adapter selon ton projet */
+  color: #333; /* Couleur du texte par défaut */
+  background-color: #f9f9f9; /* Couleur de fond douce */
+  min-height: 100vh; /* Toujours au moins la hauteur de la fenêtre */
+  -webkit-font-smoothing: antialiased; /* Lissage des polices pour un meilleur rendu */
+}
+
+/* Supprime les styles par défaut des listes */
+ul, ol {
+  list-style: none;
+}
+
+/* Supprime la décoration des liens */
+a {
+  text-decoration: none;
+  color: inherit; /* Utilise la couleur actuelle du texte */
+}
+
+/* Applique un style de base pour les images */
+img {
+  max-width: 100%;
+  height: auto; /* Garde les proportions des images */
+  display: block;
+}
+
+/* === TYPOGRAPHIE === */
+/* Ajoute des styles pour les titres */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+  line-height: 1.2; /* Moins d'espacement pour les titres */
+  margin-bottom: 1rem;
+}
+
+/* Ajoute un espace standard après les paragraphes */
+p {
+  margin-bottom: 1rem;
+}
+
+
+
+
+body {
+  color: var(--color--black);
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: Satoshi Variable, Arial, sans-serif;
+  font-size: 1vw;
+  font-weight: 400;
+  line-height: 1;
+  display: flex;
+}
+
+h1 {
+  font-family: Ppmori, Arial, sans-serif;
+  font-size: var(--_responsive---font-size--70);
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  line-height: .93;
+}
+
+h2 {
+  font-family: Ppmori, Arial, sans-serif;
+  font-size: var(--_responsive---font-size--24);
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  line-height: .93;
+}
+
+h3 {
+  font-family: Ppmori, Arial, sans-serif;
+  font-size: var(--_responsive---font-size--21);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 600;
+  line-height: .93;
+}
+
+p {
+  font-size: var(--_responsive---font-size--21);
+  margin-bottom: 0;
+  line-height: 1.33;
+}
+
+a {
+  color: var(--color--black);
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: none; /* Supprime l'outline sur le focus */
+  box-shadow: none; /* Supprime l'effet ombré */
+}
+
+
+
+
+.page {
+  width: var(--100);
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+}
+
+.page.is-styleguide {
+  padding-top: var(--_responsive---size--120);
+  padding-bottom: var(--_responsive---size--120);
+}
+
+.styleguide {
+  padding-top: var(--_responsive---size--60);
+  padding-bottom: var(--_responsive---size--60);
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 87.5%;
+  display: flex;
+}
+
+.body {
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+.h-big {
+  font-family: Ppmori, Arial, sans-serif;
+  font-size: var(--_responsive---font-size--70);
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: .93;
+}
+
+.h-medium {
+  font-family: Ppmori, Arial, sans-serif;
+  font-size: var(--_responsive---font-size--24);
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: .93;
+}
+
+.h-small {
+  font-family: Ppmori, Arial, sans-serif;
+  font-size: var(--_responsive---font-size--21);
+  font-weight: 600;
+  line-height: .93;
+}
+
+.p-small {
+  font-family: Satoshi Variable, Arial, sans-serif;
+  font-size: var(--_responsive---font-size--18);
+  text-transform: none;
+  font-weight: 400;
+  line-height: 1.33;
+}
+
+.p-small.is-bold {
+  margin-right: .3em;
+  font-weight: 700;
+}
+
+.button {
+  background-color: var(--color--black);
+  color: var(--color--white);
+  font-family: Ppmori, Arial, sans-serif;
+  font-size: var(--_responsive---font-size--18);
+  text-transform: uppercase;
+  border-radius: 3px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 9px 15px;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1920px) {
+  body {font-size: 1.2em;}
+}
+
+
+
+@media only screen and (min-width: 1301px) and (max-width: 1610px)  {
+  p {font-size: 1.3em;}
+  .p-small {font-size: 1.12em;}
+  .h-small {font-size: 1.3em;}
+  h3 {font-size: 1.3em;}
+  .h-medium {font-size: 1.49em;}
+  h2 {font-size: 1.49em;}
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1300px)  {
+  p {font-size: 1.62em;}
+  .p-small {font-size: 1.38em;}
+  .h-small {font-size: 1.3em;}
+  h3 {font-size: 1.3em;}
+  .h-medium {font-size: 1.85em;}
+  h2 {font-size: 1.85em;}
+}

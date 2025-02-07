@@ -1,0 +1,29 @@
+.form-block {
+  grid-column-gap: var(--_responsive---size--15);
+  grid-row-gap: var(--_responsive---size--15);
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  display: flex;
+}
+
+.form {
+  margin-top: var(--_responsive---size--30);
+  grid-column-gap: var(--_responsive---size--30);
+  grid-row-gap: var(--_responsive---size--30);
+  flex-flow: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.form_field {
+  width: 100%;
+  color: #333;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+}

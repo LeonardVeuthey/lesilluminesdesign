@@ -1,0 +1,53 @@
+Title: lampe
+
+----
+
+Vignette: - file://gEtLxZuUfCThpjk4
+
+----
+
+Nom: lampe
+
+----
+
+Description: desc.
+
+----
+
+Categorie: luminaires
+
+----
+
+Designer: autor
+
+----
+
+Editeur: 
+
+----
+
+Annee: 
+
+----
+
+Origine: 
+
+----
+
+Dimensions: 
+
+----
+
+Etat: 
+
+----
+
+Prix: 
+
+----
+
+Galerie: 
+
+----
+
+Uuid: IXkPw8xOX7wu1JtE

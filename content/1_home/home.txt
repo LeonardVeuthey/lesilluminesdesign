@@ -1,0 +1,21 @@
+Title: HOME
+
+----
+
+Texte: Les Illuminés Design / 3 Rue Vignier, 1205 Genève, Suisse / info@lesilluminesdesign.ch / +41 22 741 22 50
+
+----
+
+Footer: Les Illuminés Design / (link: https://www.google.com/maps/place/Les+Illumin%C3%A9s+Design+XX%C3%A8me/@46.1964356,6.1379157,17z/data=!3m1!4b1!4m6!3m5!1s0x478c7ad4e78f5a41:0x261ca28d0d207c44!8m2!3d46.196432!4d6.142792!16s%2Fg%2F1tlgwvy_?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D text: 3 Rue Vignier, 1205 Genève, Suisse) / (email: info@lesilluminesdesign.ch text: info@lesilluminesdesign.ch) / (link: tel:+41227412250 text: +41 22 741 22 50)
+
+----
+
+Description: Les Illuminés Design / 3 Rue Vignier, 1205 Genève, Suisse / info@lesilluminesdesign.ch / +41 22 741 22 50
+
+----
+
+Uuid: C3334rqcEtdMz64Q
+
+----
+
+Template: home

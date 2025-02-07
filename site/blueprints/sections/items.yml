@@ -1,0 +1,12 @@
+type: pages
+label: Design
+parent: kirby.page("designs")
+size: small
+info: "{{ page.images.count }} image(s)"
+layout: cards
+template: item
+empty: No albums yet
+image:
+  query: page.cover
+  cover: true
+  ratio: 5/4

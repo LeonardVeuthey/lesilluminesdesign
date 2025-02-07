@@ -1,0 +1,111 @@
+/* Loader */
+@keyframes loader {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.loader {
+  z-index: 999;
+  width: 100%;
+  background-color: var(--color--white);
+  opacity: 1; /* Visible au départ */
+  pointer-events: none;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  text-align: center;
+  inset: 0%;
+  animation: loader 1s forwards;
+  animation-delay: 1s;
+}
+
+
+.loader_text {
+  position: absolute;
+  inset: auto auto 12.5em;
+
+}
+
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.grid_link {
+  animation: fadeIn 1s backwards;
+  animation-delay: 1.1s;
+}
+
+:root {
+  --i: 0
+}
+
+[data-stagger-list]> :nth-child(1) {
+  --i: 0
+}
+
+[data-stagger-list]> :nth-child(2) {
+  --i: 1
+}
+
+[data-stagger-list]> :nth-child(3) {
+  --i: 2
+}
+
+[data-stagger-list]> :nth-child(4) {
+  --i: 3
+}
+
+[data-stagger-list]> :nth-child(5) {
+  --i: 4
+}
+
+[data-stagger-list]> :nth-child(6) {
+  --i: 5
+}
+
+[data-stagger-list]> :nth-child(7) {
+  --i: 6
+}
+
+[data-stagger-list]> :nth-child(8) {
+  --i: 7
+}
+
+[data-stagger-list]> :nth-child(9) {
+  --i: 8
+}
+
+[data-stagger-list]> :nth-child(10) {
+  --i: 9
+}
+
+[data-stagger-list]> :nth-child(11) {
+  --i: 10
+}
+
+[data-stagger-list]> :nth-child(12) {
+  --i: 11
+}
+
+[data-stagger-list]> :nth-child(13) {
+  --i: 12
+}
+
+

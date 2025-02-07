@@ -1,0 +1,17 @@
+Title: DESIGNS
+
+----
+
+Description: ceci est le projet
+
+----
+
+Template:
+
+designs
+Title: projets
+Text: This is the About page.
+
+----
+
+Uuid: 8fDG19bIw26cDUkD
