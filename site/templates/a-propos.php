@@ -20,7 +20,6 @@
       <!-- FORMULAIRE -->
       <?php snippet('formulaire') ?>
 
-      <-! PARTENAIRES -->
     </div>
   </div>
 </div>

@@ -453,11 +453,16 @@ a:focus {
   font-size: var(--_responsive---font-size--18);
   text-transform: uppercase;
   cursor: pointer;
+  height: var(--_responsive---size--60);
+  padding: 0px var(--_responsive---size--30);
   border: 0;
   border-radius: 3px;
-  padding: 9px 15px;
   font-weight: 600;
   text-decoration: none;
+}
+
+.button.is-big {
+  font-size: var(--_responsive---font-size--24);
 }
 
 @media only screen and (width >= 1920px) {
@@ -499,6 +504,31 @@ a:focus {
 
   .h-medium, h2 {
     font-size: 1.85em;
+  }
+}
+
+@media (width <= 991px) {
+  .button {
+    font-size: var(--_responsive---font-size--18);
+    height: var(--_responsive---size--30);
+    padding: 0px var(--_responsive---size--30);
+  }
+
+  .button.is-big {
+    font-size: var(--_responsive---font-size--24);
+  }
+}
+
+@media (width <= 767px) {
+  .button {
+    font-size: var(--_responsive---font-size--18);
+    height: var(--_responsive---size--15);
+    padding: 0px var(--_responsive---size--30);
+  }
+
+  .button.is-big {
+    font-size: var(--_responsive---font-size--24);
+    padding: 0;
   }
 }
 
@@ -649,6 +679,7 @@ a:focus {
 
 .nav_link {
   padding: var(--_responsive---size--30);
+  cursor: pointer;
   justify-content: flex-start;
   align-items: center;
   text-decoration: none;
@@ -710,6 +741,7 @@ a:focus {
 
 .offset_trigger {
   padding: var(--_responsive---size--30);
+  cursor: pointer;
   display: none;
 }
 
@@ -1128,6 +1160,8 @@ a:focus {
 
   .page_content {
     padding-top: var(--_responsive---size--30);
+    padding-right: var(--_responsive---size--30);
+    padding-left: var(--_responsive---size--30);
   }
 
   .galerie_item {

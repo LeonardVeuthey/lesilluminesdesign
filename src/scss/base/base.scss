@@ -191,7 +191,13 @@ a:focus {
   cursor: pointer;
   font-weight: 600;
   text-decoration: none;
-  padding: 9px 15px;
+  height: var(--_responsive---size--60);
+  padding: 0px var(--_responsive---size--30) ;
+}
+
+.button.is-big {
+  font-size: var(--_responsive---font-size--24);
+
 }
 
 
@@ -224,3 +230,32 @@ a:focus {
   .h-medium {font-size: 1.85em;}
   h2 {font-size: 1.85em;}
 }
+
+@media (max-width: 991px) {
+  .button {
+    font-size: var(--_responsive---font-size--18);
+    height: var(--_responsive---size--30);
+    padding: 0px var(--_responsive---size--30) ;
+  }
+
+  .button.is-big {
+    font-size: var(--_responsive---font-size--24);
+  }
+}
+
+@media (max-width: 767px) {
+  .button {
+    font-size: var(--_responsive---font-size--18);
+    height: var(--_responsive---size--15);
+    padding: 0px var(--_responsive---size--30) ;
+  }
+
+  .button.is-big {
+    font-size: var(--_responsive---font-size--24);
+    padding: 0px 0px ;
+
+  }
+}
+
+
+
