@@ -1,7 +1,0 @@
-title: Designs
-
-
-pages: true # Les sous-pages restent accessibles
-
-      sections:
-        albums: sections/items

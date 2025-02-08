@@ -30,6 +30,21 @@ return [
           }
           return $html;
       }
+    ],
+    [
+      'pattern' => '/(:all)/designs',
+          'action'  => function () {
+          go('/');
+      }
+    ],
+    [
+      'pattern' => '/webapp/api/v1/search',
+      'action'  => function () {
+          header("Access-Control-Allow-Origin: *");
+          include_once 'site/templates/get.search.php';
+          return getSearch(kirby(), site());
+      }
     ]
+
   ]
 ];

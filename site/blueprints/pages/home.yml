@@ -1,12 +1,14 @@
-columns:
+title: home
 
-  - width: 1/2
-    sections:
-      item: sections/item
+options:
+  changeSlug: false
+  delete: false
+  changeTitle: false
+  sort: false
+  changeStatus: true
+  duplicate: false
 
-  - width: 1/2
-
-    fields:
-      footer:
-        label: Texte pied de page
-        type: textarea
+fields:
+  footer:
+    label: Texte pied de page
+    type: textarea

@@ -1,5 +1,13 @@
 title: A propos
 
+options:
+  changeSlug: false
+  delete: false
+  changeTitle: false
+  sort: false
+  changeStatus: true
+  duplicate: false
+
 fields:
   titre:
     label: Titre

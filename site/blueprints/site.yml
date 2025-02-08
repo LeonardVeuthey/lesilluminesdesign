@@ -9,9 +9,13 @@ columns:
 
  - width: 1/2
       sections:
-        pages:
+        siteInfo:
+          template:
+            - home
+            - a-propos
+          label: " "
           type: pages
-          create: false
-          exclude: hidden-page # Exclut la page parente spécifique
+          exclude: hidden-page
+          create: false # Exclut la page parente spécifique
 
 
