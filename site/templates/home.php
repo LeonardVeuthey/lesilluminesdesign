@@ -32,7 +32,7 @@ $items = page('designs')->children()->listed()->sortBy('title', 'asc'); ?>
 
 <!-- MENU -->
 <div class="menu">
-  <!--<img src="/assets\img\loupe.png" loading="lazy" alt="" class="image">-->
+  <img src="/assets\img\loupe.png" loading="lazy" alt="" class="image">
   <div class="menu_wrapper">
     <a href="<?= page('home')->url() ?>" class="menu_link is-active">
       <p class="menu_link_text">all</p>

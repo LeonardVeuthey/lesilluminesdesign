@@ -13,6 +13,9 @@
     <!-- navbar -->
     <div class="offset">
       <div class="navbar">
+
+
+
         <a href="<?= page('home')->url() ?>" aria-current="page" class="nav_link <?php echo (basename($_SERVER['REQUEST_URI']) == 'home') ? 'active' : ''; ?>">
           <h2 class="nav_link_text">Catalogue</h2>
         </a>
@@ -22,7 +25,7 @@
         <!-- language -->
         <div class="nav_link">
           <?php foreach ($kirby->languages() as $index => $language): ?>
-            <a class="nav_link_text" href="<?= $language->url() ?>" <?= e($kirby->language() === $language, 'class="active"') ?>>
+            <a class="nav_link_text <?= $kirby->currentLanguage()->code() == $language->code() ? 'active' : ''?>" href="<?= $language->url() ?>" >
               <?= strtoupper($language->code()) ?>
             </a>
             <?php if ($index < $kirby->languages()->count() - 1): ?>

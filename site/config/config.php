@@ -34,8 +34,11 @@ return [
     [
       'pattern' => '/(:all)/designs',
           'action'  => function () {
-          go('/');
+            #$lang = kirby()->currentLanguage()->code();
+            #print_r(kirby()->language());
+          go("/");
       }
+
     ],
     [
       'pattern' => '/webapp/api/v1/search',
