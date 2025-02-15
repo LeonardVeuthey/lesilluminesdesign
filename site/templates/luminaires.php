@@ -37,15 +37,15 @@ $filteredItems = $items->filterBy('categorie', 'luminaires');
 
 <!-- MENU -->
 <div class="menu">
-  <!--<img src="/assets\img\loupe.png" loading="lazy" alt="" class="image">-->
+  <img src="/assets\img\loupe.png" loading="lazy" alt="" class="menu_loupe">
   <div class="menu_wrapper">
-    <a href="<?= page('home')->url() ?>" class="menu_link">
+    <a href="<?= page('home')->url() ?>" class="menu_link is-active">
       <p class="menu_link_text">all</p>
     </a>
     <a href="<?= page('mobilier')->url() ?>" class="menu_link">
       <p class="menu_link_text">mobilier</p>
     </a>
-    <a href="<?= page('luminaires')->url() ?>" class="menu_link is-active">
+    <a href="<?= page('luminaires')->url() ?>" class="menu_link">
       <p class="menu_link_text">luminaires</p>
     </a>
     <a href="<?= page('objets')->url() ?>" class="menu_link">
@@ -54,6 +54,13 @@ $filteredItems = $items->filterBy('categorie', 'luminaires');
     <a href="<?= page('archives')->url() ?>" class="menu_link">
       <p class="menu_link_text">archives</p>
     </a>
+  </div>
+  <div class="menu_search">
+    <div class="menu_search_close">
+      <img class="menu_search_img" src="/assets/img/croix.png" alt="">
+    </div>
+
+    <input class="menu_search_input" type="text" oninput="updateSearch(this.value)" placeholder="Rechercher par nom d'objet ou designer" id="search">
   </div>
 </div>
 

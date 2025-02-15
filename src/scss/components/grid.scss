@@ -1,4 +1,6 @@
 
+
+
 .grid {
   grid-template-rows: auto auto auto auto;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -11,6 +13,15 @@
   height: var(--100);
   position: relative;
   overflow: hidden;
+
+  &.hidden {
+    display: none;
+  }
+  &.show{
+    animation-duration: 0s;
+    animation-delay: 0s;
+  }
+
 }
 
 /* Grid_link - hover */
@@ -48,6 +59,12 @@
   transform-style: preserve-3d;
   transition: transform .5s cubic-bezier(.77, 0, .175, 1);
   position: relative;
+
+
+}
+
+.grid_link.show .item_img {
+  transition-duration: 0s;
 }
 
 

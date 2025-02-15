@@ -19,6 +19,14 @@ body {
   background-color: #f9f9f9; /* Couleur de fond douce */
   min-height: 100vh; /* Toujours au moins la hauteur de la fenêtre */
   -webkit-font-smoothing: antialiased; /* Lissage des polices pour un meilleur rendu */
+
+  overflow: auto;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
 }
 
 /* Supprime les styles par défaut des listes */

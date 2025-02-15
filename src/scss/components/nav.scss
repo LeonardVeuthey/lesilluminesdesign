@@ -26,20 +26,21 @@
   cursor: pointer;
 }
 
-.nav_link.active {
-  text-decoration: underline 2px solid;
-}
-
-.nav_link.is-name, .nav_link.is-close {
-  display: none;
-}
-
 .nav_link_text {
   font-family: Ppmori, Arial, sans-serif;
   font-size: var(--_responsive---font-size--21);
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav_link_text.active {
+  text-decoration: underline 2px solid;
+}
+
+.nav_link.is-name, .nav_link.is-close {
+  display: none;
 }
 
 .nav_link_text.is-trait {
