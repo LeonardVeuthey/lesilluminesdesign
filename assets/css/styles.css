@@ -1109,6 +1109,7 @@ a:focus {
 
 .soon {
   z-index: 999999;
+  text-align: center;
   background-color: #fff;
   flex-direction: column;
   justify-content: center;

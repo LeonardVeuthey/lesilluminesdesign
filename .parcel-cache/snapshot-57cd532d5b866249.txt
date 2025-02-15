@@ -133,7 +133,7 @@
 100C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\kirby\config\areas\account\views.php133820905796769085 0
 121C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\node_modules\@parcel\watcher\src\macos\FSEventsBackend.cc133832241705116277 0
 100C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\node_modules\semver\functions\gte.js133832241706123577 0
-84C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\src\scss\styles.scss133840888588102721 0
+84C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\src\scss\styles.scss133840897681790999 0
 95C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\node_modules\sass\sass.node.mjs133832241718989192 0
 98C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\site\cache\lesilluminesdesign.test133823800664886166 1
 148C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\node_modules\posthtml\node_modules\dom-serializer\node_modules\entities\package.json133832241704218671 0
@@ -2806,7 +2806,7 @@
 114C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\node_modules\entities\lib\generated\encode-html.js133832241704936759 0
 107C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\node_modules\@parcel\core\src\Validation.js133832241721193316 0
 106C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\node_modules\domutils\lib\esm\index.js.map133832241706821716 0
-74C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\assets\css133840890393121247 1
+74C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\assets\css133840897996489431 1
 105C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\node_modules\entities\lib\esm\decode.d.ts133832241716745197 0
 109C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\node_modules\entities\lib\esm\decode.d.ts.map133832241707370249 0
 116C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\node_modules\@parcel\node-resolver-core\package.json133832241705176115 0
@@ -5711,5 +5711,5 @@
 111C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\assets\css\PPMori-SemiBoldItalic.d002cbdc.woff2133840890392752227 0
 110C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\assets\css\Satoshi-VariableItalic.44c7ee5b.ttf133832997819781799 0
 110C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\assets\css\Satoshi-VariableItalic.8dd1c3bf.ttf133840890392832005 0
-85C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\assets\css\styles.css133840890393101290 0
-89C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\assets\css\styles.css.map133840890393121247 0
+85C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\assets\css\styles.css133840897996469486 0
+89C:\Users\LEONARD\website\kirby\kirby-website\lesilluminesdesign\assets\css\styles.css.map133840897996489431 0
