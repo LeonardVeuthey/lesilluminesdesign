@@ -39,6 +39,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: var(--_responsive---size--60);
 }
 
 .language-switcher a.active {
