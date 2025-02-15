@@ -3,7 +3,7 @@
 
 
 <div class="soon">
-  <p class="soon_text">Les Illuminés Design</p>
+  <h1 class="soon_text">Les Illuminés Design</h1>
   <p class="soon_text">Site en construction</p>
 </div>
 
