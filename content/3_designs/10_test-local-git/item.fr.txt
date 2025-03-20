@@ -1,0 +1,17 @@
+Title: test local git
+
+----
+
+Vignette: 
+
+----
+
+Description: 
+
+----
+
+Galerie: 
+
+----
+
+Uuid: LCkQ1LAxQon3FWst
