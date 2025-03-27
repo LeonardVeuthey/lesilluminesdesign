@@ -37,8 +37,8 @@ if ($kirby->request()->is('POST')) {
 ?>
 
 <div class="form-block">
-  <h3><?= $page->contactSubtitle() ?></h3>
-  <p class="p-small"><?= $page->contactDescription() ?></p>
+  <h3>Intéressé par l'achat ou pour toutes autres questions</h3>
+  <p class="p-small">Merci de nous contacter à info@illuminésdesign.ch ou au +41 79 488 37 38. Ou directement via le formualaire ci dessous.</p>
 
   <!-- form -->
   <form class="form" action="<?= $page->url() ?>" method="POST">
