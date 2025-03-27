@@ -18,9 +18,10 @@
       <?php snippet('faq') ?>
 
       <!-- FORMULAIRE -->
+       test
       <?php snippet('formulaire') ?>
 
-      
+
     </div>
   </div>
 </div>
