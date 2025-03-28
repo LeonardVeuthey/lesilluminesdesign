@@ -37,8 +37,8 @@ if ($kirby->request()->is('POST')) {
 ?>
 
 <div class="form-block">
-  <h3><?= $page = page('designs')->designFormTitle() ?></h3>
-  <p class="p-small"><?= $page = page('designs')->designFormDescription() ?></p>
+  <h3><?= $page->contactSubtitle() ?></h3>
+  <p class="p-small"><?= $page->contactDescription() ?></p>
 
   <!-- form -->
   <form class="form" action="<?= $page->url() ?>" method="POST">

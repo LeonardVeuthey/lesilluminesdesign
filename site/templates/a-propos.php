@@ -15,11 +15,12 @@
       </div>
 
       <!-- FAQ -->
-      <?php snippet('faq') ?>
+      <div class="faq">
+        <?php snippet('faq') ?>
+      </div>
 
       <!-- FORMULAIRE -->
-       test
-      <?php snippet('formulaire') ?>
+      <?php snippet('formulaire-a-propos') ?>
 
 
     </div>

@@ -10,7 +10,7 @@ Nom: Arne Hovmand Olsen chaises
 
 ----
 
-Description: 
+Description: Arne Hovmand Olsen
 
 ----
 
@@ -18,7 +18,7 @@ Categorie: mobilier
 
 ----
 
-Designer: 
+Designer: Arne Hovmand Olsen
 
 ----
 

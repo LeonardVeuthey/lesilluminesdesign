@@ -18,4 +18,15 @@ Contactdescription: Merci de nous contacter à info@illuminésdesign.ch ou au +4
 
 ----
 
+Faq:
+
+- 
+  question: Question 1
+  reponse: Réponse 1
+- 
+  question: Question 2
+  reponse: Réponse 2
+
+----
+
 Uuid: xHe70HSvt0n34FeT

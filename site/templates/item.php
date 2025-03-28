@@ -20,27 +20,27 @@
       </div>
       <div class="details">
         <div class="details_line">
-          <p class="p-small is-bold">Designer : <?= $page->designer()->html() ?></p>
+          <p class="p-small is-bold">Designer : </p><p class="p-small"><?= $page->designer()->html() ?></p>
         </div>
         <div class="details_line">
-          <p class="p-small is-bold">Editeur : <?= $page->editeur()->html() ?></p>
+          <p class="p-small">Editeur : </p><p class="p-small"><?= $page->editeur()->html() ?></p>
 
         </div>
         <div class="details_line">
-          <p class="p-small is-bold">Année : <?= $page->annee()->html() ?></p>
+          <p class="p-small">Année : </p><p class="p-small"><?= $page->annee()->html() ?></p>
 
         </div>
         <div class="details_line">
-          <p class="p-small is-bold">Origine : <?= $page->origine()->html() ?></p>
+          <p class="p-small">Origine : </p><p class="p-small"><?= $page->origine()->html() ?></p>
         </div>
         <div class="details_line">
-          <p class="p-small is-bold">Dimensions : <?= $page->dimensions()->html() ?></p>
+          <p class="p-small">Dimensions : </p><p class="p-small"><?= $page->dimensions()->html() ?></p>
         </div>
         <div class="details_line">
-          <p class="p-small is-bold">Etat : <?= $page->etat()->html() ?></p>
+          <p class="p-small">Etat : </p><p class="p-small"><?= $page->etat()->html() ?></p>
         </div>
         <div class="details_line">
-          <p class="p-small is-bold">Prix : <?= $page->prix()->html() ?></p>
+          <p class="p-small">Prix : </p><p class="p-small"><?= $page->prix()->html() ?></p>
         </div>
       </div>
 

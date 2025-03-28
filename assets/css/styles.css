@@ -500,11 +500,11 @@ a:focus {
     font-size: 1.62em;
   }
 
-  .p-small {
+  .p-small, .h-small {
     font-size: 1.38em;
   }
 
-  .h-small, h3 {
+  h3 {
     font-size: 1.3em;
   }
 
@@ -982,6 +982,7 @@ a:focus {
 }
 
 .faq_trigger {
+  cursor: pointer;
   justify-content: space-between;
   align-items: center;
   display: flex;
@@ -992,13 +993,31 @@ a:focus {
   display: none;
 }
 
+.faq_content p {
+  font-size: var(--_responsive---font-size--18);
+  text-transform: none;
+  font-weight: 400;
+  line-height: 1.33;
+}
+
+@media only screen and (width >= 992px) and (width <= 1300px) {
+  .faq_content p {
+    font-size: 1.38em;
+  }
+}
+
 .faq_croix {
   width: var(--_responsive---size--30);
   height: var(--_responsive---size--30);
   justify-content: center;
   align-items: center;
+  transition: transform .3s;
   display: flex;
   position: relative;
+}
+
+.faq_croix.rotated {
+  transform: rotate(45deg);
 }
 
 .faq_bar {

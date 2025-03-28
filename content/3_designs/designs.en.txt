@@ -1,0 +1,13 @@
+Designformtitle: 
+
+----
+
+Designformdescription: test
+
+----
+
+Designcontactsubtitle: Intéressé par l'achat ou pour toutes autres questions
+
+----
+
+Designcontactdescription: Merci de nous contacter à info@illuminésdesign.ch ou au +41 79 488 37 38. Ou directement via le formulaire ci dessous.

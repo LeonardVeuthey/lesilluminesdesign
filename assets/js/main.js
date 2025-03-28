@@ -82,3 +82,22 @@ function updateSearch(searchValue) {
     console.log(auteur);
   }
 }
+
+// FAQ
+
+document.querySelectorAll('.faq_trigger').forEach(trigger => {
+  trigger.addEventListener('click', function() {
+    const faqContent = this.nextElementSibling;
+    const faqCroix   = this.querySelector('.faq_croix');
+
+    if (faqContent.style.display === 'block') {
+      faqContent.style.display = 'none';
+      faqCroix.classList.remove('rotated');
+    } else {
+      faqContent.style.display = 'block';
+      faqCroix.classList.add('rotated');
+    }
+  });
+});
+
+

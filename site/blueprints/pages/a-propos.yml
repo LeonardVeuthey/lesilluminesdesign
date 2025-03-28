@@ -25,3 +25,13 @@ fields:
   contactDescription:
     label: Contact - description
     type: textarea
+  faq:
+    label: FAQ
+    type: structure
+    fields:
+      question:
+        label: Question
+        type: text
+      answer:
+        label: Réponse
+        type: textarea

@@ -1,0 +1,10 @@
+title: Faq
+
+
+fields:
+  question:
+    label: Question
+    type: text
+  reponse:
+    label: Reponse
+    type: t

@@ -7,7 +7,7 @@ columns:
       sections:
         albums: sections/items
 
- - width: 1/2
+  - width: 1/2
       sections:
         siteInfo:
           template:

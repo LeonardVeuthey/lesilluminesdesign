@@ -1,0 +1,27 @@
+title: Designs
+
+options:
+  changeSlug: false
+  delete: false
+  changeTitle: false
+  sort: false
+  changeStatus: true
+  duplicate: false
+  move: false
+
+
+columns:
+  # The first column has one section for the subpages of the `photography` page in card layout
+  # It reuses the pages section defined in `/site/blueprints/sections/albums.yml`
+  - width: 1/2
+      sections:
+        albums: sections/items
+
+  - width: 1/2
+      fields:
+          designFormTitle:
+            label: Formulaire titre
+            type: text
+          designFormDescription:
+            label: Formulaire description
+            type: textarea
